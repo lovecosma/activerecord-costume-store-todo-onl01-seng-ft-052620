@@ -59,4 +59,4 @@ sql3 = <<-SQL
   )
 SQL
 
-ActiveRecord::Base.connection.execute(sql2)
+ActiveRecord::Base.connection.execute(sql3)
