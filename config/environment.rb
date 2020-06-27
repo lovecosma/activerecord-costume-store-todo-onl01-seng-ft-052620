@@ -53,7 +53,7 @@ sql3 = <<-SQL
   location TEXT,
   theme TEXT,
   price REAL,
-  still_in_business BOOLEAN,
+  family_friendly BOOLEAN,
   opening_time TIMESTAMP,
   closing_time TIMESTAMP
   )
