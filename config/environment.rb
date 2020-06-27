@@ -46,7 +46,7 @@ SQL
 
 ActiveRecord::Base.connection.execute(sql2)
 
-sql2 = <<-SQL
+sql3 = <<-SQL
   CREATE TABLE IF NOT EXISTS costume_stores (
   id INTEGER PRIMARY KEY,
   name TEXT,
