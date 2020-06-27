@@ -45,3 +45,5 @@ sql2 = <<-SQL
 SQL
 
 ActiveRecord::Base.connection.execute(sql2)
+
+\
