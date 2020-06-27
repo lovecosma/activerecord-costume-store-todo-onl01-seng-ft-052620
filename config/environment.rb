@@ -52,7 +52,7 @@ sql3 = <<-SQL
   name TEXT,
   location TEXT,
   theme TEXT,
-  price INTEGER,
+  price REAL,
   still_in_business BOOLEAN,
   opening_time TIMESTAMP,
   closing_time TIMESTAMP
