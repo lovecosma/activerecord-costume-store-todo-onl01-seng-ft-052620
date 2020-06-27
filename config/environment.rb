@@ -54,7 +54,7 @@ sql3 = <<-SQL
   theme TEXT,
   price REAL,
   family_friendly BOOLEAN,
-  opening_time TIMESTAMP,
+  opening_date TIMESTAMP,
   closing_time TIMESTAMP
   )
 SQL
