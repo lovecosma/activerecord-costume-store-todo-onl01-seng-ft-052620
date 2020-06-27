@@ -51,8 +51,8 @@ sql3 = <<-SQL
   id INTEGER PRIMARY KEY,
   name TEXT,
   location TEXT,
-  theme INTEGER,
-  num_of_employees INTEGER,
+  theme TEXT,
+  price INTEGER,
   still_in_business BOOLEAN,
   opening_time TIMESTAMP,
   closing_time TIMESTAMP
