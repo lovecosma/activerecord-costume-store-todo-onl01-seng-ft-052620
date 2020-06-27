@@ -55,7 +55,8 @@ sql3 = <<-SQL
   price REAL,
   family_friendly BOOLEAN,
   opening_date TIMESTAMP,
-  closing_date TIMESTAMP
+  closing_date TIMESTAMP,
+  description TEXT
   )
 SQL
 
